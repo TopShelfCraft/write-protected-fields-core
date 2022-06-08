@@ -1,0 +1,22 @@
+{
+	"name": "topshelfcraft/write-protected-fields-core",
+	"version": "3.0.0",
+	"support": {
+		"issues": "https://github.com/TopShelfCraft/Write-Protected-Fields-Core/issues"
+	},
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Michael Rog",
+			"email": "michael@michaelrog.com"
+		}
+	],
+	"require": {
+		"craftcms/cms": "^3.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"TopShelfCraft\\WriteProtectedFields\\": "src/"
+		}
+	}
+}
